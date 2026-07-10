@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from qokedas_tools import submit_main
+
+submit_main()

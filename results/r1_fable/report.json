@@ -1,0 +1,512 @@
+{
+  "actions": 80,
+  "api_error": null,
+  "episode_id": "20260709-200952-claude-fable-5-d40cda71",
+  "freeze": {
+    "file_count": 1,
+    "files": [
+      {
+        "bytes": 3744,
+        "path": "solution.py",
+        "sha256": "9b2ab8453668255741697efc349b873dba3253301d828d8e555d666e604285d0"
+      }
+    ],
+    "schema_version": "cam1k-submission-v1",
+    "sha256": "e7694db7f7df3e8e842a2edc90e288cb317a796ac7b97dbc9c3f61cd76a33493",
+    "total_bytes": 3744
+  },
+  "grade": {
+    "cases": [
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-e6daf3cbb9fc",
+          "elapsed_seconds": 13.040827249875292,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.11348713078059273,
+          "frame_band_count": 22,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8826503101480555,
+          "map_skill": 0.0,
+          "mean_floor": 0.960384147366176,
+          "raw_hotspot_score": 0.4027252828596195,
+          "raw_map_score": 0.5168454867628731,
+          "ssim": 0.612538570998168
+        },
+        "name": "real_axcar1_a",
+        "output_sha256": "a2d1340315e5258ca728ffd2f0eab02ae651a5427cdfc080bb5dca15386805dc",
+        "transform": {
+          "channel_permutation_sha256": "da49ee55db60d2d718ff46c586142feb9672de8a18ea84ba84ef5e2a45f4da4e",
+          "num_samples": 19384
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-22c862e5b1a2",
+          "elapsed_seconds": 12.679219166981056,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.09710184504647192,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.9067714630582383,
+          "map_skill": 0.0,
+          "mean_floor": 0.9501381437878436,
+          "raw_hotspot_score": 0.39963021943389465,
+          "raw_map_score": 0.5287513272458358,
+          "ssim": 0.636532962240493
+        },
+        "name": "real_axcar1_b",
+        "output_sha256": "1091bed731636dfa101b2c338f6f600cc50a1997ebe2f8bd876f9f625a141e50",
+        "transform": {
+          "channel_permutation_sha256": "f400cd8eb47e15ba21c7197801a33abb30159ae932eac3c38628e4d836895f4a",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-b7f879a9b3cd",
+          "elapsed_seconds": 13.217112625017762,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.11117625612999416,
+          "frame_band_count": 33,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8795765769804914,
+          "map_skill": 0.01605727735367389,
+          "mean_floor": 0.9518728055278327,
+          "raw_hotspot_score": 0.41371031531918456,
+          "raw_map_score": 0.5109407791886796,
+          "ssim": 0.6033451739071662
+        },
+        "name": "real_axcar1_c",
+        "output_sha256": "3f9d4cb748360018208c417eb368d91e0812d5bb3be9950d7baf96104d05e1ce",
+        "transform": {
+          "channel_permutation_sha256": "d4800849690452bd50942d07088f3f3937681cfe72bd7b0ba391573a76b52010",
+          "num_samples": 25995
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-6b67c659ff7b",
+          "elapsed_seconds": 12.917062541935593,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.23190376295459184,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.9368039695297352,
+          "map_skill": 0.0,
+          "mean_floor": 0.8385006594037537,
+          "raw_hotspot_score": 0.481899961538881,
+          "raw_map_score": 0.6461171355219361,
+          "ssim": 0.7783704254592227
+        },
+        "name": "real_axcar3_a",
+        "output_sha256": "4012025df6158015ed09cd6d8795713a3f31c6a2e1d7fcd2ed813d403eb7df33",
+        "transform": {
+          "channel_permutation_sha256": "ea89eaf8bf827f16dec2b6e61eadfee99dd73191c557481e6e8275345a91affc",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-c14a1fe370c1",
+          "elapsed_seconds": 12.891337041044608,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.13980642672376595,
+          "frame_band_count": 22,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8937298801636083,
+          "map_skill": 0.0,
+          "mean_floor": 0.8189544868162725,
+          "raw_hotspot_score": 0.4250027919040091,
+          "raw_map_score": 0.5581877551168369,
+          "ssim": 0.6749997021339706
+        },
+        "name": "real_axcar3_b",
+        "output_sha256": "e8b0b9844721fcc2ab42173a7458ebf4fe1ab3f39c5e8ef52e437a7fba9f3aa6",
+        "transform": {
+          "channel_permutation_sha256": "a0577050bf9f21e7cd464907bc10ba888df2981c2b4d23d547b6b4950e80ffd4",
+          "num_samples": 19000
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-d9da6b12ef29",
+          "elapsed_seconds": 12.639184125000611,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.19469201254111673,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.06586243973426685,
+          "l1_similarity": 0.9226015107427128,
+          "map_skill": 0.0,
+          "mean_floor": 0.8498784636352984,
+          "raw_hotspot_score": 0.49745754673302955,
+          "raw_map_score": 0.6128112854230049,
+          "ssim": 0.7397667590242546
+        },
+        "name": "real_axcar3_c",
+        "output_sha256": "910d3ae37213dae054e06f6816dd37a887ad34fa15815bd7181cf30dd7f4b1bd",
+        "transform": {
+          "channel_permutation_sha256": "649efe415215d17b3e4cf04c64434be004e173b6ca71851ddb8698858b974120",
+          "num_samples": 13192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-a7b8d820dbd3",
+          "elapsed_seconds": 12.8536844169721,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.1977863898229054,
+          "frame_band_count": 33,
+          "hotspot_skill": 0.021256506626147854,
+          "l1_similarity": 0.8957449483713624,
+          "map_skill": 0.0,
+          "mean_floor": 0.8199108368643817,
+          "raw_hotspot_score": 0.452513175398717,
+          "raw_map_score": 0.6023283160670797,
+          "ssim": 0.7276868188918711
+        },
+        "name": "real_axcar3_d",
+        "output_sha256": "20cd3502402d6fd465ed0112af26049b1c6a63d369b1bf20f4c8856b1c4f3b25",
+        "transform": {
+          "channel_permutation_sha256": "1d011f2a86bc2496d9b812b20e764d0ead599dd572ed058882bdea11876477dc",
+          "num_samples": 24576
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-ad32d18d8e69",
+          "elapsed_seconds": 12.637403500033543,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.06915713301673526,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.9222498354596865,
+          "map_skill": 0.0,
+          "mean_floor": 0.7979993661547027,
+          "raw_hotspot_score": 0.41595715283375,
+          "raw_map_score": 0.5882430862597784,
+          "ssim": 0.7660919585256409
+        },
+        "name": "single_low_left",
+        "output_sha256": "182471c5446c3360c681742362df3819b97317f5ee7c05fc852d1177cdf4523b",
+        "transform": {
+          "channel_permutation_sha256": "f2bf63878b308e2b05e20ac2c9e5075dbe48fb063ee2cd28bb2d1848fa2f10d4",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-ab35034150a1",
+          "elapsed_seconds": 12.73394383303821,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.04251277141298255,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8885767028664543,
+          "map_skill": 0.0,
+          "mean_floor": 0.7440114478671382,
+          "raw_hotspot_score": 0.38948935353148234,
+          "raw_map_score": 0.5715954758597511,
+          "ssim": 0.7622526077251309
+        },
+        "name": "single_mid_right",
+        "output_sha256": "a06cda71471c03731fd091d1658e7f1b0fffa1085b6f89bca148d7c5ed48b918",
+        "transform": {
+          "channel_permutation_sha256": "e7447fff391728075574553ff2c78b2b314f364ce5326c81a033a2b8cac65964",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-cc4c943d5b8c",
+          "elapsed_seconds": 12.842824624851346,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.08496670740496223,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.05349991130975124,
+          "l1_similarity": 0.8569032020618947,
+          "map_skill": 0.0,
+          "mean_floor": 0.7347218978192394,
+          "raw_hotspot_score": 0.43161659178201217,
+          "raw_map_score": 0.5246314816659253,
+          "ssim": 0.6555216580641156
+        },
+        "name": "single_high_upper",
+        "output_sha256": "61fe71bd4a46bf7fefcee595bc9af042faee6ca3b6618419ebf01e091c68f03f",
+        "transform": {
+          "channel_permutation_sha256": "8f0f2c3fa0df3de24e4268c80641b953993b04d1d32395e3bb1eba69aa985e80",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-84a9930dfc27",
+          "elapsed_seconds": 12.831594416871667,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.38642105086435286,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.10499607641479482,
+          "l1_similarity": 0.8728376215328695,
+          "map_skill": 0.14606279994230587,
+          "mean_floor": 0.6825876883784701,
+          "raw_hotspot_score": 0.435449341346702,
+          "raw_map_score": 0.6532259327695222,
+          "ssim": 0.7254641864072849
+        },
+        "name": "dual_source",
+        "output_sha256": "e73a7de59578823987557a841fabf0bcae6102be5925ac048ac9b7daaa66839c",
+        "transform": {
+          "channel_permutation_sha256": "94bef94d0c7e7e07ef4d5588f7ecc0dc9ec844d2b0728ec40c832f49d5474002",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-ebd0ce1ba36f",
+          "elapsed_seconds": 12.84884124994278,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.3849530653136873,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0858081234827118,
+          "l1_similarity": 0.7457094226904523,
+          "map_skill": 0.038445059896732685,
+          "mean_floor": 0.6256520399702532,
+          "raw_hotspot_score": 0.4564667339661957,
+          "raw_map_score": 0.512683509085214,
+          "ssim": 0.49611140990603464
+        },
+        "name": "broadband_coherent",
+        "output_sha256": "1f0ece3464a4ca33fc44a9e7957a91451e0d64ce5b5ae02f5f7815b68528ee0d",
+        "transform": {
+          "channel_permutation_sha256": "6fec2183a6451204dda8eee7d3c56f9019bd418aed64fbdae4a14390ed11fe77",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-f05f1106ffc0",
+          "elapsed_seconds": 12.963980542030185,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.28621121650453296,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.03695369535914348,
+          "l1_similarity": 0.9034651503307098,
+          "map_skill": 0.07899186680927926,
+          "mean_floor": 0.7411944671247749,
+          "raw_hotspot_score": 0.47507956166120435,
+          "raw_map_score": 0.6501183302306958,
+          "ssim": 0.7671238704263879
+        },
+        "name": "muted_microphones",
+        "output_sha256": "f9356a76f759e3c63a5a82d8d2ae2010599870f005229ac1e242c680d456f7ca",
+        "transform": {
+          "channel_permutation_sha256": "a33a3fb115015a8de8066340d90920bb2e8b7c184abf671bdd972ae2ae50bf91",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-d9778bd7e4d9",
+          "elapsed_seconds": 12.710449791979045,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.18388277361263405,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.013864986574516788,
+          "l1_similarity": 0.8782801511540108,
+          "map_skill": 0.004048342823605,
+          "mean_floor": 0.7613056003108835,
+          "raw_hotspot_score": 0.459952190022527,
+          "raw_map_score": 0.5826131111203261,
+          "ssim": 0.7035844976114674
+        },
+        "name": "gain_mismatch",
+        "output_sha256": "970531a81dfaa4b7d00fca5c0905a63bd408820763d025747c3b4c405671721a",
+        "transform": {
+          "channel_permutation_sha256": "4dbd1cc44377c3be94763e4f3925e71f53c2a777f29330518b126894ce9682ca",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-a955e9c4576b",
+          "elapsed_seconds": 12.80727345799096,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.05859688112505885,
+          "frame_band_count": 11,
+          "hotspot_skill": 3.675262751647743e-05,
+          "l1_similarity": 0.9804146348137791,
+          "map_skill": 0.038728520623023295,
+          "mean_floor": 0.7734074972718891,
+          "raw_hotspot_score": 0.39994984270792316,
+          "raw_map_score": 0.6952870813480888,
+          "ssim": 0.9632501800956309
+        },
+        "name": "spatially_incoherent_noise",
+        "output_sha256": "018689e7576776460bd2e6a88171711178698eecffd6d9282baf4a99edc3a9c7",
+        "transform": {
+          "channel_permutation_sha256": "75dee69ee474fac67b997b6066d9acc8fc7e361fb80da2b44e39305b53259dab",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-a05580ee1da4",
+          "elapsed_seconds": 12.706359915900975,
+          "log": "",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 1.0,
+          "frame_band_count": 11,
+          "hotspot_skill": 1.0,
+          "l1_similarity": 1.0,
+          "map_skill": 1.0,
+          "mean_floor": 0.0,
+          "raw_hotspot_score": 1.0,
+          "raw_map_score": 1.0,
+          "ssim": 1.0
+        },
+        "name": "zero_input",
+        "output_sha256": "caed2ccb56d31a31629155f5d0a8951a7d1aee4b77d07c4d05aba3dc966e1d89",
+        "transform": {
+          "channel_permutation_sha256": "cc54d0de1587d25f5bddc86b825c2b7eca9405d502fd0da18572c3d32bb06aa9",
+          "num_samples": 8192
+        }
+      }
+    ],
+    "hotspot": 0.01244556376577353,
+    "overall": 0.032844410394922016,
+    "percentage": 3.2844410394922017,
+    "private_manifest_sha256": "48bc58396ff09c33b01fce474eec5713e62fc063e709f3f1e69a6346f60ab056",
+    "procedural": 0.14489479791440488,
+    "replay": 0.0022938967648105557,
+    "runner_image": "cam1k-runner:latest",
+    "runner_image_id": "sha256:0b0adcb3db42182f2fc08a069c8f3f061012eec70bdb3fbf35c69f9e32d02298",
+    "schema_version": "cam1k-grade-v2-skill",
+    "seed": 6146827274981830193,
+    "submission": {
+      "file_count": 1,
+      "files": [
+        {
+          "bytes": 3744,
+          "path": "solution.py",
+          "sha256": "9b2ab8453668255741697efc349b873dba3253301d828d8e555d666e604285d0"
+        }
+      ],
+      "schema_version": "cam1k-submission-v1",
+      "sha256": "e7694db7f7df3e8e842a2edc90e288cb317a796ac7b97dbc9c3f61cd76a33493",
+      "total_bytes": 3744
+    }
+  },
+  "model": "claude-fable-5",
+  "model_final_text": "",
+  "reasoning_effort": "high"
+}

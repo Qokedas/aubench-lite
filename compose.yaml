@@ -1,0 +1,34 @@
+name: cam1k-eval
+
+services:
+  runner:
+    image: cam1k-runner:latest
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.runner
+    profiles: [build-only]
+    command: ["true"]
+
+  agent:
+    image: cam1k-agent:latest
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.agent
+    network_mode: none
+    read_only: true
+    user: "10001:10001"
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 512
+    mem_limit: 16g
+    cpus: 8
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=2g
+    volumes:
+      - type: bind
+        source: ${CAM1K_WORKSPACE:-./episodes/manual/workspace}
+        target: /workspace
+      - type: bind
+        source: ${CAM1K_PUBLIC_DATA:-./data/benchmark/public}
+        target: /data
+        read_only: true

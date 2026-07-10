@@ -1,0 +1,18 @@
+.DS_Store
+.env
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Source captures, generated benchmark tensors, episode workspaces, and reports.
+data/source/
+data/benchmark/
+episodes/
+reports/
+
+figures/

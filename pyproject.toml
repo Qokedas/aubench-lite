@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cam1k-beamforming-eval"
+version = "0.1.0"
+description = "Reproducible agentic evaluation for reconstructing CAM1K acoustic beamforming maps"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=0.92,<1",
+  "gdown>=6.1,<7",
+  "numpy>=2.2,<2.4",
+  "openai>=2.0,<3",
+  "python-dotenv>=1.1,<2",
+  "rosbags>=0.11,<0.12",
+  "scipy>=1.15,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4,<9",
+  "pytest-cov>=6.2,<7",
+  "ruff>=0.12,<0.13",
+]
+
+[project.scripts]
+cam1k-eval = "cam1k_eval.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["cam1k_eval"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+

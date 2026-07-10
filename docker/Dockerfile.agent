@@ -1,0 +1,28 @@
+FROM python:3.12.11-slim-bookworm@sha256:519591d6871b7bc437060736b9f7456b8731f1499a57e22e6c285135ae657bf7
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PYTHONPATH=/opt/agent-tools \
+    MPLCONFIGDIR=/tmp/matplotlib \
+    NUMBA_CACHE_DIR=/tmp/numba
+
+RUN apt-get update \
+    && apt-get install --yes --no-install-recommends bash ca-certificates ffmpeg jq procps \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 10001 --shell /bin/bash agent
+
+COPY requirements/agent.txt /tmp/requirements.txt
+RUN pip install --requirement /tmp/requirements.txt && rm /tmp/requirements.txt
+
+# Only the standalone delivery-contract tools are present. No benchmark library,
+# no scoring code, no reference implementation, and no network.
+COPY docker/agent_tools/qokedas_tools.py /opt/agent-tools/qokedas_tools.py
+COPY docker/bin/ /usr/local/bin/
+RUN chmod 0555 /usr/local/bin/qokedas-* \
+    && chmod -R a-w /opt/agent-tools
+
+WORKDIR /workspace
+USER agent:agent
+CMD ["sleep", "infinity"]

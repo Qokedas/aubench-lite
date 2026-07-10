@@ -1,0 +1,522 @@
+{
+  "actions": 30,
+  "api_error": null,
+  "episode_id": "20260709-222706-gpt-5-6-sol-84279dd6",
+  "freeze": {
+    "file_count": 2,
+    "files": [
+      {
+        "bytes": 1231,
+        "path": "README.md",
+        "sha256": "d810496d4f32661c1888add6bb9203ff6094ae7d4eb4dd7c1c1c2a19a842078c"
+      },
+      {
+        "bytes": 7698,
+        "path": "solution.py",
+        "sha256": "04133e4a843233037000e219cae7dd699b331b35b343086229271386d3bae6a6"
+      }
+    ],
+    "schema_version": "cam1k-submission-v1",
+    "sha256": "4e7e4c9e041c68629f21e4a11534f587a4e03dfa08c9f2fd638c7e3be68c1f4d",
+    "total_bytes": 8929
+  },
+  "grade": {
+    "cases": [
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-44a820599292",
+          "elapsed_seconds": 1.31449683313258,
+          "log": "beamformed frame 1/2\nbeamformed frame 2/2\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.13599202928589157,
+          "frame_band_count": 22,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.899250695080779,
+          "map_skill": 0.06304966771390465,
+          "mean_floor": 0.960384147366176,
+          "raw_hotspot_score": 0.4016275404729551,
+          "raw_map_score": 0.5252724715266625,
+          "ssim": 0.6092494474494782
+        },
+        "name": "real_axcar1_a",
+        "output_sha256": "ee66ad319ded52c862a98c698ba761dbc1550cffa8db961923cf6274d9c4c9d0",
+        "transform": {
+          "channel_permutation_sha256": "c305a50334c74cb242f081c9f5d70e3ba28dd3b42c411de41742a24ba1bb184d",
+          "num_samples": 19384
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-400054a78d74",
+          "elapsed_seconds": 0.8705773751717061,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.08706932532937833,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.896861001626509,
+          "map_skill": 0.0,
+          "mean_floor": 0.9501381437878436,
+          "raw_hotspot_score": 0.39550869476677836,
+          "raw_map_score": 0.5087884028303608,
+          "ssim": 0.606590809812491
+        },
+        "name": "real_axcar1_b",
+        "output_sha256": "89719d197f405a2c4ded0c33a93981c531baad4241d454d3452ae9d1f3532014",
+        "transform": {
+          "channel_permutation_sha256": "0a47047cd2c2d78a4c33b6e667c88cdea960298566f63b002e0af2963b22d267",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-2cff006db42c",
+          "elapsed_seconds": 1.884202792076394,
+          "log": "beamformed frame 1/3\nbeamformed frame 2/3\nbeamformed frame 3/3\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.13710128222462692,
+          "frame_band_count": 33,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.901451212391499,
+          "map_skill": 0.022856295780383624,
+          "mean_floor": 0.9518728055278327,
+          "raw_hotspot_score": 0.4070701961609732,
+          "raw_map_score": 0.5351420016715039,
+          "ssim": 0.627442749051632
+        },
+        "name": "real_axcar1_c",
+        "output_sha256": "513de9f9491dd6c3b2c4b39f5eae0bcfa8c01a30a152c795cf918af154b0d5f9",
+        "transform": {
+          "channel_permutation_sha256": "b624dcd4cf1aa93333f529d8a11127d30a701dd2f6ee8d93f492b10d9a1a1b21",
+          "num_samples": 25995
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-73b20f495bd3",
+          "elapsed_seconds": 0.8176716251764446,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.21398097223883034,
+          "frame_band_count": 11,
+          "hotspot_skill": 1.368509766659831e-05,
+          "l1_similarity": 0.7962494661058394,
+          "map_skill": 0.0,
+          "mean_floor": 0.8385006594037537,
+          "raw_hotspot_score": 0.46971457697653185,
+          "raw_map_score": 0.4944218881851244,
+          "ssim": 0.5419554065846149
+        },
+        "name": "real_axcar3_a",
+        "output_sha256": "3fef6458a8525d998215d40b6fb84e0e3dd9c24f33cc8ef181330f943bc7fc8a",
+        "transform": {
+          "channel_permutation_sha256": "2c1be6a582e4827550b5cf47ee6d57dbb2e9c3a6eef1030470323342f222918f",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-db4ae7f38830",
+          "elapsed_seconds": 1.3555577080696821,
+          "log": "beamformed frame 1/2\nbeamformed frame 2/2\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.12586480886260407,
+          "frame_band_count": 22,
+          "hotspot_skill": 0.0035856410126213073,
+          "l1_similarity": 0.7964895387842639,
+          "map_skill": 0.0,
+          "mean_floor": 0.8189544868162725,
+          "raw_hotspot_score": 0.41211287763703885,
+          "raw_map_score": 0.4525392186585712,
+          "ssim": 0.5109637364858747
+        },
+        "name": "real_axcar3_b",
+        "output_sha256": "3feb9d9f1fa6db8f89eee30a13dc4e279d9eb6fe438d040f90ce0df128ea663c",
+        "transform": {
+          "channel_permutation_sha256": "d01c48adad2cb8671bfdcbd843ce99ebfd077fc1087d7e215bcd8df1e048806e",
+          "num_samples": 19000
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-de95ddbac02d",
+          "elapsed_seconds": 0.9329491250682622,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.18517921700717424,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8055928073740071,
+          "map_skill": 0.0,
+          "mean_floor": 0.8498784636352984,
+          "raw_hotspot_score": 0.4584203466674154,
+          "raw_map_score": 0.494583722219493,
+          "ssim": 0.5558227912850785
+        },
+        "name": "real_axcar3_c",
+        "output_sha256": "c9296175153444737273d0b74da5c4aa0db8c2bfe479a5a612ebcfc253208cdc",
+        "transform": {
+          "channel_permutation_sha256": "6685b51110944429f7d5dbecae8639afa1d94a0bfe00c90ad7b54f33dc17772d",
+          "num_samples": 13192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-61fef99c5f8e",
+          "elapsed_seconds": 1.7759881659876555,
+          "log": "beamformed frame 1/3\nbeamformed frame 2/3\nbeamformed frame 3/3\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "real",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.21488124128737632,
+          "frame_band_count": 33,
+          "hotspot_skill": 0.02478077285619832,
+          "l1_similarity": 0.8113698806044026,
+          "map_skill": 0.0,
+          "mean_floor": 0.8199108368643817,
+          "raw_hotspot_score": 0.4595896832095857,
+          "raw_map_score": 0.5189745988984493,
+          "ssim": 0.5844725007827117
+        },
+        "name": "real_axcar3_d",
+        "output_sha256": "42a5d5027d8bc5bf42419a0cd54cd6559100e1f73adbaa32b26cc5512b605090",
+        "transform": {
+          "channel_permutation_sha256": "35a57a4dd6e2c2999cd35a7ae0bccc93b4f9380468486c9e3c25691d5eaf1a52",
+          "num_samples": 24576
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-d572ff94a6c3",
+          "elapsed_seconds": 0.9210531250573695,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.1298423804786808,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.7981053006995512,
+          "map_skill": 0.0,
+          "mean_floor": 0.7979993661547027,
+          "raw_hotspot_score": 0.39856893199195725,
+          "raw_map_score": 0.4242191397193281,
+          "ssim": 0.45129073087162724
+        },
+        "name": "single_low_left",
+        "output_sha256": "f43db24c1a0cb9247fee7b25b2512f3d1a9b313233fec21023a9a7e8f7d28c61",
+        "transform": {
+          "channel_permutation_sha256": "b6c19e56262ce8c7b9d5c396209927d7949f16ea7cb9256d92c0812c7a403a53",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-d6774de15db8",
+          "elapsed_seconds": 0.8715780831407756,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.025600582069801495,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.018395447620184933,
+          "l1_similarity": 0.835696143560996,
+          "map_skill": 0.0,
+          "mean_floor": 0.7440114478671382,
+          "raw_hotspot_score": 0.39492454760725243,
+          "raw_map_score": 0.4007790017729901,
+          "ssim": 0.4519191968797008
+        },
+        "name": "single_mid_right",
+        "output_sha256": "32fed5ef962196001e9f24a7c96a63cda27161301e57d5136d1aa399418f0774",
+        "transform": {
+          "channel_permutation_sha256": "1ffbe64ef7e480ec07eb23319c11adeeeadc096f1deeaea654d509e9858d8096",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-d6b97e3c6e29",
+          "elapsed_seconds": 0.8700751671567559,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.023640809789948345,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.04484462768519841,
+          "l1_similarity": 0.810904815178178,
+          "map_skill": 0.0,
+          "mean_floor": 0.7347218978192394,
+          "raw_hotspot_score": 0.3861267941424556,
+          "raw_map_score": 0.41662433317143965,
+          "ssim": 0.4947022543976391
+        },
+        "name": "single_high_upper",
+        "output_sha256": "df2fcb04a3b8c2bfd6293a548c6c3c2076d35009f17cd840a512314de14d848f",
+        "transform": {
+          "channel_permutation_sha256": "5d479f4f8fb60fb13ce0048d96fc171d60d46b3c62ded6aae746f835c5ebe0e4",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-2b0be33a9d03",
+          "elapsed_seconds": 0.8308502500876784,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.030774548790000075,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8351737400596349,
+          "map_skill": 0.0,
+          "mean_floor": 0.6825876883784701,
+          "raw_hotspot_score": 0.35081230057803836,
+          "raw_map_score": 0.4388467602801015,
+          "ssim": 0.5251592952623491
+        },
+        "name": "dual_source",
+        "output_sha256": "481734f2fecc44839b7de7823743f350c8ca323e82e566245388360668d77c3a",
+        "transform": {
+          "channel_permutation_sha256": "4afa9197cc816ab917bd36b0345f354c3c20540e51e59681de3ff8a791872f6b",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-95d01d78f687",
+          "elapsed_seconds": 0.8692860840819776,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.03967047795006123,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.716996351755918,
+          "map_skill": 0.0,
+          "mean_floor": 0.6256520399702532,
+          "raw_hotspot_score": 0.305294973552037,
+          "raw_map_score": 0.2771833855479228,
+          "ssim": 0.24376594362344173
+        },
+        "name": "broadband_coherent",
+        "output_sha256": "1285a751bcb4b3ad6c22307901de7624dcb92eafa04f97b27c75a5e27d0e782f",
+        "transform": {
+          "channel_permutation_sha256": "ac8498cc1d232981ece011d8027149c5bee425d6a7d6fb8b488e2b20118b6aa8",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-8d48215f973b",
+          "elapsed_seconds": 0.8126671661157161,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.1134822157981416,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.04953730308565544,
+          "l1_similarity": 0.8185289894518287,
+          "map_skill": 0.0,
+          "mean_floor": 0.7411944671247749,
+          "raw_hotspot_score": 0.4420022089638334,
+          "raw_map_score": 0.4300854100608614,
+          "ssim": 0.46466989486210614
+        },
+        "name": "muted_microphones",
+        "output_sha256": "ae23ed449f6ddf764ee11b205528db8927fa528c5b5b8447b33e7f370aec29ea",
+        "transform": {
+          "channel_permutation_sha256": "7da0f5f9f9c7d3ce5dc0b4426914d203997c7b46a78c9a1798a07d2910371e1e",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-2fabc836c006",
+          "elapsed_seconds": 0.8737869581673294,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.01529442436810294,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.0,
+          "l1_similarity": 0.8055149079564307,
+          "map_skill": 0.0,
+          "mean_floor": 0.7613056003108835,
+          "raw_hotspot_score": 0.3639168098109231,
+          "raw_map_score": 0.41415414727912714,
+          "ssim": 0.49692567675482
+        },
+        "name": "gain_mismatch",
+        "output_sha256": "d73f253490de4dc75871995da43cf663b684b4659615b154589c624222021762",
+        "transform": {
+          "channel_permutation_sha256": "74fde6598188a6a1acc9c5f0ee2621271e1872110b8e889404cad485e310de54",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-f942f0d3fded",
+          "elapsed_seconds": 0.8720368749927729,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 0.11742333014455969,
+          "frame_band_count": 11,
+          "hotspot_skill": 0.026152761657001748,
+          "l1_similarity": 0.9584816286863519,
+          "map_skill": 0.042613062744142574,
+          "mean_floor": 0.7734074972718891,
+          "raw_hotspot_score": 0.4549497905504294,
+          "raw_map_score": 0.6720250591563303,
+          "ssim": 0.890203468751384
+        },
+        "name": "spatially_incoherent_noise",
+        "output_sha256": "60f0f274402a702b54623289bd55183ad0fa6e764a072976718cecfa322528cd",
+        "transform": {
+          "channel_permutation_sha256": "3af099726fa319506b6295496a574ebbd501894126330433290c4f0b1a8529fd",
+          "num_samples": 8192
+        }
+      },
+      {
+        "execution": {
+          "container_name": "cam1k-candidate-0e627f7f8ef5",
+          "elapsed_seconds": 0.8645612080581486,
+          "log": "beamformed frame 1/1\n",
+          "log_truncated": false,
+          "returncode": 0,
+          "timed_out": false
+        },
+        "kind": "procedural",
+        "metrics": {
+          "blank_fraction": 0.0,
+          "correlation": 1.0,
+          "frame_band_count": 11,
+          "hotspot_skill": 1.0,
+          "l1_similarity": 1.0,
+          "map_skill": 1.0,
+          "mean_floor": 0.0,
+          "raw_hotspot_score": 1.0,
+          "raw_map_score": 1.0,
+          "ssim": 1.0
+        },
+        "name": "zero_input",
+        "output_sha256": "caed2ccb56d31a31629155f5d0a8951a7d1aee4b77d07c4d05aba3dc966e1d89",
+        "transform": {
+          "channel_permutation_sha256": "1c68f9c1909fe7ee3a0a51e9cbd17ec27950e1955756b7369f663ed28d725895",
+          "num_samples": 8192
+        }
+      }
+    ],
+    "hotspot": 0.004054299852355175,
+    "overall": 0.03177148334120195,
+    "percentage": 3.1771483341201954,
+    "private_manifest_sha256": "48bc58396ff09c33b01fce474eec5713e62fc063e709f3f1e69a6346f60ab056",
+    "procedural": 0.11798627535610245,
+    "replay": 0.01227228049918404,
+    "runner_image": "cam1k-runner:latest",
+    "runner_image_id": "sha256:0b0adcb3db42182f2fc08a069c8f3f061012eec70bdb3fbf35c69f9e32d02298",
+    "schema_version": "cam1k-grade-v2-skill",
+    "seed": 4238273734468470714,
+    "submission": {
+      "file_count": 2,
+      "files": [
+        {
+          "bytes": 1231,
+          "path": "README.md",
+          "sha256": "d810496d4f32661c1888add6bb9203ff6094ae7d4eb4dd7c1c1c2a19a842078c"
+        },
+        {
+          "bytes": 7698,
+          "path": "solution.py",
+          "sha256": "04133e4a843233037000e219cae7dd699b331b35b343086229271386d3bae6a6"
+        }
+      ],
+      "schema_version": "cam1k-submission-v1",
+      "sha256": "4e7e4c9e041c68629f21e4a11534f587a4e03dfa08c9f2fd638c7e3be68c1f4d",
+      "total_bytes": 8929
+    }
+  },
+  "model": "gpt-5.6-sol",
+  "model_final_text": "Submission completed and validated.\n\n- `solution.py`: `/workspace/submission/solution.py`\n- Documentation: `/workspace/submission/README.md`\n- Preview video: `/workspace/deliverables/preview.mp4`\n- `qokedas-check`: passed\n- `qokedas-submit`: `ready_for_host_freeze`",
+  "reasoning_effort": "high"
+}
